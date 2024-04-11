@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 
-from nucliopytorch.load.get_data import download_data_fashion, get_data_loader
-from nucliopytorch.model.pytorch_ff import TorchFF
+from load.get_data import download_data_fashion, get_data_loader
+from model.pytorch_ff import TorchFF
 
 np.random.seed(42)
 random.seed(42)
